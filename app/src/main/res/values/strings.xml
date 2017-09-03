@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PhoneScreenshot</string>
+
+    <string name="take_screenshot">Take Screenshot</string>
+</resources>
