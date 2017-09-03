@@ -68,6 +68,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             // for fragment
             // View v = getActivity().getWindow().getDecorView().getRootView();
 
+            // for specific view
+            // View v = findViewById(R.id.layout_main);
+
             Bitmap screenshot = null;
             v.setDrawingCacheEnabled(true);
             screenshot = Bitmap.createBitmap(v.getDrawingCache());
